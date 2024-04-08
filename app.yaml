@@ -1,0 +1,4 @@
+---
+kind: wasmer.io/App.v0
+name: php-wasmer-starter
+package: wasmer-examples/php-wasmer-starter
