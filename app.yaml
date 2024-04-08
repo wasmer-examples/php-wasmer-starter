@@ -1,4 +1,6 @@
 ---
 kind: wasmer.io/App.v0
 name: php-wasmer-starter
-package: wasmer-examples/php-wasmer-starter
+package: wasmer-examples/php-wasmer-starter@0.2.2
+scaling:
+  mode: single_concurrency
