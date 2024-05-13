@@ -1,15 +1,5 @@
-[package]
-name = "wasmer-examples/php-wasmer-starter"
-version = "0.2.2"
-description = "Wordpress starter package"
-license = "MIT OR Apache-2.0"
-readme = "README.md"
-repository = "https://github.com/wasmer-examples/php-wasmer-starter"
-entrypoint = "run"
-private = true
-
 [dependencies]
-"php/php" = "=8.0.10"
+"php/php" = "=8.3.4-beta.3"
 
 [fs]
 "/app" = "app"
@@ -19,5 +9,4 @@ name = "run"
 module = "php/php:php"
 runner = "wasi"
 [command.annotations.wasi]
-env = ["USE_ZEND_ALLOC=0"]
 main-args = ["-t", "/app", "-S", "localhost:8080"]

@@ -20,10 +20,6 @@ Or you can also use `wasmer run` to run it locally (check out the [Wasmer instal
 $ wasmer run . --net
 ```
 
-
-> [!TIP]
-> You can also run `wasmer run wasmer-examples/wordpress-wasmer-starter --net`to run the remote package
-
 Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 
@@ -38,6 +34,3 @@ Run this commmand to deploy to Wasmer Edge:
 ```bash
 wasmer deploy
 ```
-
-> [!NOTE]
-> You will need to change the namespace in `wasmer.toml` to your own namespace and app name in `app.yaml` to your own app name.
