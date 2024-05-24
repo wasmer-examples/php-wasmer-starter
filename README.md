@@ -27,7 +27,7 @@ Open [http://localhost:8080](http://localhost:8080) with your browser to see the
 
 The easiest way to deploy your PHP app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
 
-Live example: https://wordpress-php-starter.wasmer.app/
+Live example: https://php-starter-wasmer-examples.wasmer.app/
 
 Run this commmand to deploy to Wasmer Edge:
 
