@@ -1,12 +1,12 @@
 [dependencies]
-"php/php-eh" = "=8.3.404-beta.6"
+"php/php-32" = "=8.3.2101-rc.1"
 
 [fs]
 "/app" = "app"
 
 [[command]]
 name = "run"
-module = "php/php-eh:php"
+module = "php/php-32:php"
 runner = "wasi"
 [command.annotations.wasi]
 main-args = ["-t", "/app", "-S", "localhost:8080"]
